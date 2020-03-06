@@ -1,0 +1,9 @@
+name: Vaulttest
+version: 1.0
+main: red.man10.batta.vaulttest.Vaulttest
+api-version: 1.15
+description: vaulttest
+depend: [Vault]
+commands:
+  vaulttest:
+    description: vaultcommand
