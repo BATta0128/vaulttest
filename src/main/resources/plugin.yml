@@ -10,3 +10,7 @@ commands:
     description: vaultcommand
   vaulttest2:
     description: vaultcommand2
+  showmoney:
+    description: showmoneycommand
+  givemoney:
+    description: getmoneycommand
