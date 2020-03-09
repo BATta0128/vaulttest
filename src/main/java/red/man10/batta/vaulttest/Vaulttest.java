@@ -9,8 +9,16 @@ public final class Vaulttest extends JavaPlugin {
     @Override
 
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        sender.sendMessage("コマンド実行!");
-        getLogger().info("コマンド実行!(コンソール)" );
+        if (cmd.getName().equalsIgnoreCase("vaulttest")) {
+            sender.sendMessage("コマンド実行!");
+            getLogger().info("コマンド実行!(コンソール)");
+            return true;
+        }
+        if (cmd.getName().equalsIgnoreCase("vaulttest2")) {
+            sender.sendMessage("コマンド実行2!");
+            getLogger().info("コマンド実行2!(コンソール)");
+            return true;
+        }
 
         return false;
 
